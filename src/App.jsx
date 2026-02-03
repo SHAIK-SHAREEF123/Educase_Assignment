@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
-import Welcome from 'Welcome.jsx';
+import Welcome from './pages/Welcome';
 import Account from './pages/Account';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
-import { Route } from 'react-router-dom';
+import { Routes,Route } from 'react-router-dom';
 
 function App() {
 
